@@ -19,4 +19,3 @@ passport.serializeUser((user, serialize) => {
 passport.deserializeUser((obj, deserialize) => {
   deserialize(null, obj);
 });
-
